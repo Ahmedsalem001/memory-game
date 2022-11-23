@@ -102,28 +102,19 @@ body {
   transform: rotateY(180deg);
   pointer-events: none;
 }
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* small */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .container {
-    width: 650px;
+    width: 450px;
   }
-  .info-container{
-    width: 650px;
+  .blocks-container {
+    width: 430px;
   }
-  .blocks-container{
-    width: 650px;
+  .info-container {
+    width: 430px;
+    font-size: 15px;
   }
-  .blocks-container .game-block {
-    flex: 1 0 200px; 
-    height: 200px;
+  .blocks-container .game-block{
+  height: 195px;
+  flex: 1 0 150px; 
   }
-  /* .blocks-container .game-block .front::before{
-    font-size: 160px;
-  } */
 }
